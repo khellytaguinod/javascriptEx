@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> Calling a Function From Another Function </title>
+  </head>
+  <body>
+
+    <h1> Calling a Function From Another Function Examples </h1>
+
+    <script type="text/javascript">
+    //function called by another function
+
+    //two function
+    function doFirst(){
+      document.write("testting hehehe! <br /> ");
+    }
+    function doSecond(){
+      document.write("hello testing second here 333");
+    }
+
+   //this function will call the two other function
+   function start(){
+     doFirst();
+     doSecond();
+   }
+
+
+     start();
+    </script>
+
+  </body>
+</html>
